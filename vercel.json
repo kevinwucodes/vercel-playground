@@ -1,7 +1,16 @@
 {
   "headers": [
     {
-      "source": "/.well-known/openid-configuration",
+      "source": "/.well-known/tryagain",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    },
+    {
+      "source": "/public/.well-known/tryagain",
       "headers": [
         {
           "key": "Content-Type",
