@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/public/.well-known/openid-configuration",
+      "source": "/.well-known/openid-configuration",
       "headers": [
         {
           "key": "Content-Type",
