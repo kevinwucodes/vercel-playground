@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Type",
-          "value": "content-type: application/json; charset=utf-8"
+          "value": "application/json; charset=utf-8"
         }
       ]
     }
