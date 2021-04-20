@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/.well-known/tryagain",
+      "source": "/.well-known/openid-configuration",
       "headers": [
         {
           "key": "Content-Type",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "source": "/public/.well-known/tryagain",
+      "source": "/public/.well-known/openid-configuration",
       "headers": [
         {
           "key": "Content-Type",
