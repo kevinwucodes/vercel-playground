@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/public/.well-known/openid-configuration",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "content-type: application/json; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}
