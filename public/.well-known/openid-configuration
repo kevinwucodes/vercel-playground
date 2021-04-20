@@ -1,3 +1,3 @@
 {
-  "openid": "configuration details here, number 2"
+  "jwks_uri": "https://everything-xi.vercel.app/.well-known/jwks.json"
 }
