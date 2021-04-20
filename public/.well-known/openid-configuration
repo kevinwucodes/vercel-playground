@@ -1,4 +1,4 @@
 {
-  "issuser": "https://kevinwu.auth0.com/",
+  "issuer": "https://kevinwu.auth0.com/",
   "jwks_uri": "https://everything-xi.vercel.app/.well-known/jwks.json"
 }
