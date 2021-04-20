@@ -8,15 +8,6 @@
           "value": "application/json"
         }
       ]
-    },
-    {
-      "source": "/public/.well-known/openid-configuration",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        }
-      ]
     }
   ]
 }
