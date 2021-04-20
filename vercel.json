@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/.well-known/openid-configuration",
+      "source": "/another/subfolder/.well-known/openid-configuration",
       "headers": [
         {
           "key": "Content-Type",
