@@ -33,9 +33,7 @@ module.exports = (req, res) => {
   // console.log(req.route)
 
   res.json({
-    body: 'a test connection',
-    // query: req.query,
-    // cookies: req.cookies,
+    'Test-Connection': 'successful',
   })
 
   // res.json({
