@@ -1,8 +1,9 @@
 export const config = {
-  runtime: 'edge', // this is a pre-requisite
-  regions: ['iad1'], // only execute this function on iad1
+  runtime: 'edge',
 };
  
-export default function handler(request, response) {
-  return response.status(200).json({ text: 'I am an Edge Function!' });
+export default function handler(request) {
+  return Response.json({
+    name: `Hello, from ${request.url} I'm an Edge Function!`,
+  });
 }
